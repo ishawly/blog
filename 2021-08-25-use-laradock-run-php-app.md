@@ -2,6 +2,14 @@
 title: 使用 Laradock 搭建PHP开发环境
 date: 2021-08-25 16:26:00
 description: 搭建Docker的PHP开发环境及遇到的问题处理
+categories:
+- 环境搭建
+tags:
+- docker
+- laradock
+- php
+- nginx
+- php-fpm
 ---
 
 
@@ -60,7 +68,7 @@ QUEUE_HOST=beanstalkd
 
 
 
-> 注：更多细节请参考官方文档：http://laradock.io/documentation/，以上参考[使用 Laradock 搭建基于 Docker 的 PHP 开发环境](https://laravelacademy.org/post/7691.html)
+> 注：更多细节请参考官方文档：[http://laradock.io/documentation/](http://laradock.io/documentation/)，以上参考[使用 Laradock 搭建基于 Docker 的 PHP 开发环境](https://laravelacademy.org/post/7691.html)
 
 
 
