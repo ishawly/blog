@@ -98,10 +98,57 @@ xdebug.idekey = "PHPSTORM"
 
 
 
-## IDE 配置
+## 浏览器配置
+
+<h3>Chrome 配置</h3>
+
+扩展安装地址：https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
+
+
+
+配置IDE Key
+
+![chrome-xdebug-helper-config.png](./images/chrome-xdebug-helper-config.png)
+
+
+
+启用：在Chrome浏览器工具打开该插件的调试模式。
+
+![chrome-xdebug-helper-enable](./images/chrome-xdebug-helper-enable.png)
+
+
+
+
+
+Firefox、Safari配置见：https://xdebug.org/docs/step_debug 中"Browser Extension Initiation"小节。
+
+
 
 ### Postman 配置
 
+单独启用调试会话可以在get、post请求参数中添加`XDEBUG_SESSION=session_name`即可触发，若`xdebug.session_value`未配置任何值则`session_name`可为任何值。  
+
+若需所有请求都启用调试会话，则可在cookie中设置`XDEBUG_SESSION=session_name`。
+
+![postman-xdebug-config](./images/postman-xdebug-config.png)
+
+
+
+## IDE 配置
+
 ### Phpstorm 配置
 
-### 
+![phpstorm-xdebug-config](./images/phpstorm-xdebug-config.png)
+
+
+
+开启调试
+
+![phpstorm-enable-xdebug](./images/phpstorm-enable-xdebug.png)
+
+更多请参考：
+
+> Zero-configuration debugging: https://www.jetbrains.com/help/phpstorm/2021.1/zero-configuration-debugging.html
+>
+> Configure Xdebug: https://www.jetbrains.com/help/phpstorm/2021.1/configuring-xdebug.html
+
