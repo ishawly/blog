@@ -108,13 +108,13 @@ xdebug.idekey = "PHPSTORM"
 
 配置IDE Key
 
-![chrome-xdebug-helper-config.png](./images/chrome-xdebug-helper-config.png)
+![chrome-xdebug-helper-config.png](/images/chrome-xdebug-helper-config.png)
 
 
 
 启用：在Chrome浏览器工具打开该插件的调试模式。
 
-![chrome-xdebug-helper-enable](./images/chrome-xdebug-helper-enable.png)
+![chrome-xdebug-helper-enable](/images/chrome-xdebug-helper-enable.png)
 
 
 
@@ -130,7 +130,7 @@ Firefox、Safari配置见：https://xdebug.org/docs/step_debug 中"Browser Exten
 
 若需所有请求都启用调试会话，则可在cookie中设置`XDEBUG_SESSION=session_name`。
 
-![postman-xdebug-config](./images/postman-xdebug-config.png)
+![postman-xdebug-config](/images/postman-xdebug-config.png)
 
 
 
@@ -138,13 +138,13 @@ Firefox、Safari配置见：https://xdebug.org/docs/step_debug 中"Browser Exten
 
 ### Phpstorm 配置
 
-![phpstorm-xdebug-config](./images/phpstorm-xdebug-config.png)
+![phpstorm-xdebug-config](/images/phpstorm-xdebug-config.png)
 
 
 
 开启调试
 
-![phpstorm-enable-xdebug](./images/phpstorm-enable-xdebug.png)
+![phpstorm-enable-xdebug](/images/phpstorm-enable-xdebug.png)
 
 更多请参考：
 
