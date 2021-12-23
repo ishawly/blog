@@ -14,11 +14,17 @@ tags:
 - [array_reduce](#method-array-reduce)
 - [array_reverse](#method-array-reverse)
 
+
+
+
+
 <a id="method-array-pad" href="#method-array-pad"></a>
 
 # array_pad
 
 > 以下翻译来自于：https://www.php.net/manual/en/function.array-pad.php
+
+
 
 ## 描述
 
@@ -56,9 +62,13 @@ $result = array_pad($input, 2, "noop");
 
 <a id="method-array-reduce" href="#method-array-reduce"></a>
 
+
+
 # array_reduce
 
 > 以下翻译来自于：https://www.php.net/manual/en/function.array-reduce.php
+
+
 
 ## 描述
 
@@ -116,9 +126,13 @@ var_dump(array_reduce($a, 'sum')); // int(15) null+1+2+3+4+5
 
 <a id="method-array-reverse" href="#method-array-reverse"></a>
 
+
+
 # array_reverse
 
 > 以下翻译来自于：https://www.php.net/manual/en/function.array-reverse.php
+
+
 
 ## 描述
 
