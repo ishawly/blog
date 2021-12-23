@@ -3,7 +3,7 @@ title: Hello World
 date: 2018-09-12 09:12:00
 description: 
 photos:
-    - "http://oz2tkq0zj.bkt.clouddn.com/17-11-9/52323298.jpg"
+    - "./images/hello-world-banner.jpeg"
 ---
 >天晴的时候，我想到山上赏鸟，到海边玩水...  
 天晴的时候，我想到花园种花，到果园采果...  
