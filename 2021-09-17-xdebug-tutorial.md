@@ -11,7 +11,9 @@ tags:
 
 # 安装 Xdebug
 
-> 官方地址：https://2.xdebug.org/docs/install
+> 官方地址：
+> Xdebug 2: https://2.xdebug.org/docs/install(**2021.12.31**后将失效)
+> Xdebug 3: https://xdebug.org/docs/install
 
 
 
