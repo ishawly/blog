@@ -8,7 +8,7 @@ tags:
 - nginx
 ---
 
-&emsp;&emsp;网页爬虫对站点收录和退关有好处，但大量蜘蛛涌入可能会造成网站瘫痪，通过配置 Nginx 可以限制爬虫请求。在 Nginx 的配置 `conf.d` 目录下增加请求频率限制定义文件 `user-agent-rate-limit.conf`。
+网页爬虫对站点收录和推广有好处，但大量蜘蛛涌入可能会造成网站瘫痪，通过配置 Nginx 可以限制爬虫请求。在 Nginx 的配置 `conf.d` 目录下增加请求频率限制定义文件 `user-agent-rate-limit.conf`。
 
 <!-- more -->
 
