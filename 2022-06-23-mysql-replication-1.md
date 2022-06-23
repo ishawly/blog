@@ -35,7 +35,7 @@ docker run --name=mysql_main \
 -d mysql/mysql-server:5.7
 
 # 从库 192.168.31.13
-docker run --name=mysql_main \
+docker run --name=mysql_replica \
 --mount type=bind,src=/home/liber/mysql/etc/my.cnf,dst=/etc/my.cnf \
 --mount type=bind,src=/home/liber/mysql/lib,dst=/var/lib/mysql \
 --env MYSQL_ROOT_HOST=% \
@@ -149,7 +149,11 @@ Command: Connect
 
 
 
+0x05 测试
 
+
+
+测试在数据库`monday`中操作表和数据是否能同步到备库。
 
 
 
