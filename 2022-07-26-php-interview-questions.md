@@ -5,7 +5,11 @@ description: 网上发现的一份不错的面试题, 答案根据自己的认�
 categories:
 - 面试
 tags:
+- 面试
 - php
+- laravel
+- swoole
+- redis
 ---
 
 ## PHP
