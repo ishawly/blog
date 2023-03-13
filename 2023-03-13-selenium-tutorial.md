@@ -15,15 +15,9 @@ tags:
 
 > Boring web-based administration tasks can (and should) also be automated as well.
 
-
-
 目前支持众多开发语言：Java、Python、CSharp、Ruby、JavaScript、Kotlin。下面以JavaScript为例。原文来自于[Write your first Selenium script](https://www.selenium.dev/documentation/webdriver/getting_started/first_script/)
 
-
-
 Selenium所做的一切就是发送浏览器命令来执行某些操作或发送获取信息的请求。使用Selenium执行大多数操作基本上由以下基础指令组成。
-
-
 
 ### 基础指令
 
@@ -36,8 +30,6 @@ Selenium所做的一切就是发送浏览器命令来执行某些操作或发送
 7. 请求元素信息
 8. 结束会话
 
-
-
 完整示例如下：
 
 ```
@@ -49,19 +41,19 @@ suite(function (env) {
   describe('First script', function () {
     let driver;
 
-		// 1. 开启会话
+    // 1. 开启会话
     before(async function () {
       driver = await new Builder().forBrowser('chrome').build();
     });
 
-		// 8. 结束会话
+    // 8. 结束会话
     after(async () => await driver.quit());
 
     it('First Selenium script', async function () {
       // 2. 浏览器上执行操作
       await driver.get('https://www.selenium.dev/selenium/web/web-form.html'); // 打开页面
 			
-			// 3. 获取浏览器信息
+      // 3. 获取浏览器信息
       let title = await driver.getTitle();
       assert.equal("Web form", title);
 
@@ -79,7 +71,7 @@ suite(function (env) {
 
       let message = await driver.findElement(By.id('message'));
 
-		  // 7. 请求元素信息
+      // 7. 请求元素信息
       let value = await message.getText();
       assert.equal("Received!", value);
     });
@@ -87,11 +79,7 @@ suite(function (env) {
 }, { browsers: [Browser.CHROME, Browser.FIREFOX]});
 ```
 
-
-
 ### 运行上述脚本
-
-
 
 ```
 // 1. 新建Node项目，当前Node.js版本v19.2.0
@@ -105,8 +93,6 @@ npm add mocha
 // 5. 运行脚本
 npm run test
 ```
-
-
 
 更多请参考：
 
